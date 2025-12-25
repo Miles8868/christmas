@@ -1211,8 +1211,8 @@
           "希望你新年总有始料未及的好运和突如其来的欢喜呀",
           "如图",
           "你小子今年可没少跑啊，明年继续",
-          "呕吼",
-          "没有其他选项",
+          "",
+          "",
           "帅哥你谁",
           "这是你生日那天的月亮，祝你月满福满，盆满钵满",
   "今年一起追过的不完全日落，但最美好的还是七月的那一次。视线之外，无形同载",
@@ -1230,8 +1230,8 @@
           "希望你新年总有始料未及的好运和突如其来的欢喜呀",
           "如图",
           "你小子今年可没少跑啊，明年继续",
-          "呕吼",
-          "没有其他选项",
+          "",
+          "",
           "帅哥你谁",
           "这是你生日那天的月亮，祝你月满福满，盆满钵满"
   ];
@@ -1733,7 +1733,7 @@
 
   function addPhotoToScene(texture,index) {
     const frameGeo = new THREE.BoxGeometry(1.4, 1.4, 0.05);
-    const frameMat = new THREE.MeshStandardMaterial({ color: CONFIG.colors.champagneGold, metalness: 1.0, roughness: 0.05 });
+    const frameMat = new THREE.MeshStandardMaterial({ color: CONFIG.colors.champagneGold, metalness: 1.0, roughness: 1.0 });
     const frame = new THREE.Mesh(frameGeo, frameMat);
 
     let width = 1.2; let height = 1.2;
